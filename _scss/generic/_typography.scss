@@ -1,0 +1,48 @@
+/*------------------------------------------------------------------
+||  Typography
+-------------------------------------------------------------------*/
+html {
+  font-family: $basic-font;
+  line-height: 1.5;
+  color: $dark;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6,
+ul, ol, dl,
+blockquote, p, address,
+hr,
+table,
+fieldset, figure,
+pre {
+  margin: 0 0 $spacing-medium;
+}
+
+ul, ol {
+  padding-left: $spacing-medium;
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  color: $dark;
+  text-decoration: none;
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: $light-gray;
+    transition: all .12s $basic-transition;
+  }
+
+  &:hover, &:focus {
+    &:after {
+      transform: translateY(2px);
+      background: $brand-color;
+    }
+  }
+}

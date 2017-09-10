@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% for post in site.posts %}
+  {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+  <article class="mb4 mb6-m blogpost-preview animated fadeInUp">
+    <div class="card card--hover pa3 pa5-m">
+      <div class="mb2 mb3-m">
+        <h2 class="mb1 f3 f2-m lh-title">
+          <a class="blogpost-title__link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+        <time class="f6 ttu b blogpost-date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%d. %B %Y" | replace:"January","Januar" | replace:"Februar","February" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"December","Dezember" }}</time>
+      </div>
+      <p>{{ post.intro }}</p>
+      <a class="blogpost__read-more" href="{{ post.url | relative_url }}">Weiterlesen</a>
+    </div>  
+  </article>
+{% endfor %}

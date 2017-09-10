@@ -1,8 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2017-09-10 18:15:12 +0200
-categories: jekyll update
+title: "Steps In Installing Rack Mount Lcd Monitors"
+date: 2017-09-10 18:15:12 +0200
+intro: > 
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+category: projektmanagment
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

@@ -1,0 +1,73 @@
+/*------------------------------------------------------------------
+||  Blog - Blogroll
+-------------------------------------------------------------------*/
+.blogpost-title__link {
+  color: $dark;
+  text-decoration: none;
+  &:after {
+    content: none;
+  }
+  
+  &:hover, &:focus {
+    color: $dark-gray;
+  }
+}
+
+.blogpost-date {
+  color: $middle-gray; 
+}
+
+.blogpost__read-more {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: $brand-color;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &:after {
+    content: "";
+    position: relative;
+    display: block;
+    height: 2px;
+    width: 100%;
+    opacity: 0;
+    background: $brand-color;
+    transition: all .24s $basic-transition;
+  }
+
+  &:hover, &:focus {
+    color: darken($brand-color, 8%);
+    &:after {
+      opacity: 1;
+      transform: translateY(2px);
+      background: darken($brand-color, 8%);
+    }
+  }
+
+}
+
+.blogpost {
+  .highlight {
+    padding: $spacing-medium;
+    background: $lightest-gray;
+    box-shadow: $default-shadow;
+    border-radius: $border-radius;
+    border: 2px solid $light-gray;
+    pre {
+      margin: 0;
+    }
+  }
+  
+  blockquote {
+    padding: $spacing-medium;
+    color: $dark-gray;
+    background-color: $white;
+    border-left: 4px solid $brand-color;
+    box-shadow: $default-shadow;
+    border-radius: $border-radius;
+    p {
+      margin: 0;
+    }
+  }
+}

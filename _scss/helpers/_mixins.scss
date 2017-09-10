@@ -1,0 +1,17 @@
+/*------------------------------------------------------------------
+||  Media Queries
+-------------------------------------------------------------------*/
+@mixin breakpoint($point) {
+  @if $point == papa-bear {
+    @media (min-width: $papa-bear) { @content; }
+  }
+  @else if $point == mama-bear {
+    @media (min-width: $mama-bear) { @content; }
+  }
+  @else if $point == teen-bear {
+    @media (min-width: $teen-bear)  { @content; }
+  }
+  @else if $point == baby-bear {
+    @media (min-width: $baby-bear)  { @content; }
+  }
+}
