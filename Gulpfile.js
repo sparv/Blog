@@ -74,34 +74,6 @@ gulp.task('sass:build', () => {
 });
 
 /*------------------------------------------------------------------
-||  JavaScript
--------------------------------------------------------------------*/
-gulp.task('js', () => {
-  return gulp.src('js/main.js')
-    .pipe(plumber())
-    .pipe(uglify())
-    .pipe(rename((path) => { path.basename += ".min"; }))
-    .pipe(browserSync.reload({ stream: true }))
-    .pipe(gulp.dest('js'));
-});
-
-gulp.task('js:plugins', function () {
-  return gulp.src('js/libs/*.js')
-    .pipe(concat("plugins.js"))
-    .pipe(uglify())
-    .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest('js'));
-});
-
-gulp.task('js:plugins:build', function () {
-  return gulp.src('js/libs/*.js')
-    .pipe(concat("plugins.js"))
-    .pipe(uglify())
-    .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest('_site/js'));
-});
-
-/*------------------------------------------------------------------
 ||  Imagemin
 -------------------------------------------------------------------*/
 gulp.task('imagemin', () => {
@@ -117,9 +89,8 @@ gulp.task('imagemin', () => {
 gulp.task('watch', () => {
   gulp.watch('_scss/**/*.scss', ['sass']);
   gulp.watch('_uploads/**/*', ['imagemin']);
-  gulp.watch('js/main.js', ['js', 'jekyll-rebuild']);
   gulp.watch(['*.md', '*.html', '_layouts/*.html', '_includes/**/*.html', '_posts/*', 'personaler-report/*', 'uploads/**/*'], ['jekyll-rebuild']);
 });
 
 gulp.task('default', ['browser-sync', 'imagemin', 'watch']);
-gulp.task('build', ['sass:build', 'js', 'js:plugins:build', 'imagemin', 'jekyll-rebuild']);
+gulp.task('build', ['sass:build', 'imagemin', 'jekyll-rebuild']);
