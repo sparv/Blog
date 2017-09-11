@@ -48,7 +48,7 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], () => {
 ||  SCSS
 -------------------------------------------------------------------*/
 gulp.task('sass', () => {
-  return gulp.src('_scss/main.scss')
+  return gulp.src('_sass/main.scss')
     .pipe(plumber())
     .pipe(sass({
       includePaths: ['scss'],
@@ -62,7 +62,7 @@ gulp.task('sass', () => {
 });
 
 gulp.task('sass:build', () => {
-  return gulp.src('_scss/main.scss')
+  return gulp.src('_sass/main.scss')
     .pipe(plumber())
     .pipe(sass({
       includePaths: ['scss'],
@@ -87,10 +87,10 @@ gulp.task('imagemin', () => {
 ||  Watch
 -------------------------------------------------------------------*/
 gulp.task('watch', () => {
-  gulp.watch('_scss/**/*.scss', ['sass']);
+  gulp.watch('_sass/**/*.scss', ['sass']);
   gulp.watch('_uploads/**/*', ['imagemin']);
-  gulp.watch(['*.md', '*.html', '_layouts/*.html', '_includes/**/*.html', '_posts/*', 'personaler-report/*', 'uploads/**/*'], ['jekyll-rebuild']);
+  gulp.watch(['*.md', '*.html', '_layouts/*.html', '_includes/**/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
 gulp.task('default', ['browser-sync', 'imagemin', 'watch']);
-gulp.task('build', ['sass:build', 'imagemin', 'jekyll-rebuild']);
+gulp.task('build', ['jekyll-rebuild', 'sass:build', 'imagemin']);
