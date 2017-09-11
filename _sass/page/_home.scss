@@ -9,12 +9,12 @@
   }
   
   &:hover, &:focus {
-    color: $dark-gray;
+    color: $darkest-gray;
   }
 }
 
 .blogpost-date {
-  color: $middle-gray; 
+  color: $dark-gray; 
 }
 
 .blogpost__read-more {
@@ -61,11 +61,11 @@
   
   blockquote {
     padding: $spacing-medium;
-    color: $dark-gray;
-    background-color: $white;
+    color: $darkest-gray;
     border-left: 4px solid $brand-color;
     box-shadow: $default-shadow;
     border-radius: $border-radius;
+    background: $lightest-gray;
     p {
       margin: 0;
     }
