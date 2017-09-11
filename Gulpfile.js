@@ -61,7 +61,7 @@ gulp.task('sass', () => {
     .pipe(gulp.dest('css'));
 });
 
-gulp.task('sass:build', ['jekyll-build'] () => {
+gulp.task('sass:build', ['jekyll-build'], () => {
   return gulp.src('_sass/main.scss')
     .pipe(plumber())
     .pipe(sass({
