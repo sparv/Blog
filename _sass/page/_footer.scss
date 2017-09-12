@@ -1,9 +1,18 @@
 /*------------------------------------------------------------------
 ||  Footer
 -------------------------------------------------------------------*/
-.site-footer {
-  background: $dark;
-  a:after {
-    content: none;
+.site-footer-content {
+  color: $darkest-gray;
+  border-top: 1px solid $light-gray;
+  
+  a {
+    color: $darkest-gray;
+    &:hover {
+      color: $darkest-gray;
+      text-decoration: underline;
+    }
+    &:after {
+      content: none;
+    }
   }
 }
