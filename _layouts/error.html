@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="de">
+{% include head.html %}
+<body>
+  <main class="main-content{% if page.path contains '_posts' %} main-content--post pv4 pv6-m{% endif %}" role="main">
+    {{ content }}
+  </main>
+</body>
+</html>
