@@ -5,9 +5,7 @@ isPost: true
 
 <article class="blogpost" itemscope itemtype="http://schema.org/BlogPosting">
 	<div class="mb2 mb3-m">
-		<h2 class="mb1 f3 f2-m lh-title">
-			<a class="blogpost-title__link" href="{{ post.url | relative_url }}">{{ page.title | escape }}</a>
-		</h2>
+		<h2 class="mb1 f3 f2-m lh-title">{{ page.title | escape }}</h2>
 		<time class="f6 ttu b blogpost-date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%d. %B %Y" | replace:"January","Januar" | replace:"Februar","February" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"December","Dezember" }}</time>
 	</div>
 	{{ content }}
