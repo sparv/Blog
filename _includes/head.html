@@ -6,6 +6,36 @@
 	<meta name="description" content="{% if page.metadescription %}{{ page.metadescription }}{% else %}{{ site.description }}{% endif %}">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<!-- Open Graph -->
+	<meta content="{{ site.title }}" property="og:site_name">
+	{% if page.title %}
+		<meta content="{{ page.title }}" property="og:title">
+	{% else %}
+		<meta content="{{ site.title }}" property="og:title">
+	{% endif %}
+	
+	{% if page.title %}
+		<meta content="article" property="og:type">
+	{% else %}
+		<meta content="website" property="og:type">
+	{% endif %}
+	
+	{% if page.description %}
+		<meta content="{{ page.description }}" property="og:description">
+	{% else %}
+		<meta content="{{ site.description }}" property="og:description">
+	{% endif %}
+	
+	{% if page.permalink %}
+		<meta content="{{ site.url }}{{ page.permalink }}" property="og:url">
+	{% endif %}
+	
+	{% if page.date %}
+		<meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+	{% endif %}
+	
+	<meta content="/uploads/sparv-icon.png" property="og:image">
+
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="57x57" href="/uploads/favicons/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/uploads/favicons/apple-icon-60x60.png">

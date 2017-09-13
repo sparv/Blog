@@ -20,7 +20,7 @@ description: >
   Der offizielle Blog zum webbasierten Health Service Sparv
   mit umfassenden Dokumentationen und Neuigkeiten zur Produktentwicklung.
 baseurl: ""
-url: ""
+url: "https://blog.sparv.de"
 twitter_username: sparvapp
 github_username:  sparv
 permalink: /:year/:month/:day/:title/
