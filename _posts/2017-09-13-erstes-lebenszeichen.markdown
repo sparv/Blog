@@ -5,6 +5,8 @@ date: 2017-09-18
 intro: > 
   Dies ist unser erstes Lebenszeichen auf diesem Blog, der in erster Linie jegliche interessanten Neuigkeiten zu unserem Projekt in schriftlicher Form festhalten soll.
 category: projektmanagment
+metatitle: Erstes Lebenszeichen
+metadescription: In diesem ersten Artikel eröffnen wir diesen Blog und tätigen einem kleinen Ausblick in die Zukunft von Sparv.
 ---
 
 Dies ist unser erstes Lebenszeichen auf diesem Blog, der in erster Linie jegliche interessanten Neuigkeiten zu unserem Projekt in schriftlicher Form festhalten soll.
