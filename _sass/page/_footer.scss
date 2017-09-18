@@ -1,6 +1,10 @@
 /*------------------------------------------------------------------
 ||  Footer
 -------------------------------------------------------------------*/
+.body-post .site-footer {
+  background-color: $white;
+}
+
 .site-footer-content {
   color: $darkest-gray;
   border-top: 1px solid $light-gray;
