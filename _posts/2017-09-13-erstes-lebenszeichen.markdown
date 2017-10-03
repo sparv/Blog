@@ -2,6 +2,7 @@
 layout: post
 title: "Erstes Lebenszeichen"
 date: 2017-09-18
+author: jan
 intro: > 
   Dies ist unser erstes Lebenszeichen auf diesem Blog, der in erster Linie jegliche interessanten Neuigkeiten zu unserem Projekt in schriftlicher Form festhalten soll.
 category: projektmanagment

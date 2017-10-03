@@ -1,0 +1,13 @@
+jan:
+    name: Jan Früchtl
+    profileImage: /uploads/authors/jan.jpg
+    bio: Hi! Ich bin die eine Hälfte von Sparv und arbeite hauptsächlich als Product Designer daran, Sparv besser und verständlicher zu machen.
+    mail: jan@sparv.de
+    twitter: _coolcut
+
+daniel:
+    name: Daniel Henning
+    profileImage: /uploads/authors/daniel.jpg
+    bio: Hi! Ich bin die andere Hälfte von Sparv und arbeite hauptsächlich als Product Developer daran, Sparv lauffähig und benutzbar zu machen.
+    mail: daniel@sparv.de
+    twitter: puresick

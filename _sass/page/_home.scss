@@ -71,3 +71,12 @@
     }
   }
 }
+
+.blogpost-author {
+  background-color: $lightest-gray;
+  border: 2px solid $light-gray;
+  border-radius: $border-radius;
+  p {
+    color: $darkest-gray;
+  }
+}
