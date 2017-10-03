@@ -48,6 +48,14 @@
 }
 
 .blogpost {
+  h2 {
+    font-size: $font-size-display-2;
+  }
+
+  h3 {
+    font-size: $font-size-display-3;
+  }
+  
   .highlight {
     padding: $spacing-medium;
     background: $lightest-gray;
@@ -79,4 +87,24 @@
   p {
     color: $darkest-gray;
   }
+}
+
+.sprint-review__item {
+  position: relative;
+  background-color: $lightest-gray;
+  border: 2px solid $light-gray;
+  border-radius: $border-radius;
+  h3 {
+    font-size: $font-size-body;
+  }
+}
+
+.sprint-review__item--success {
+  background-color: lighten($brand-color, 52%);
+  border-color: $brand-color;
+}
+
+.sprint-review__item--fail {
+  background-color: #FCD0D8;
+  border-color: #F03D5D;
 }

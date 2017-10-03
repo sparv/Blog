@@ -1,0 +1,10 @@
+<div class="o-grid">
+{% for item in page.sprintItems %}
+  <div class="o-grid__item mb3 w-100 w-50-m">
+    <div class="sprint-review__item pa2 pl3{% if item.status == "success" %} sprint-review__item--success{% else %} sprint-review__item--fail{% endif %}">
+      <h3 class="mb1 f5 lh-title">{{ item.name }}</h3>
+      <p class="ma0 f6 lh-copy">{{ item.description }}</p>
+    </div>
+  </div>  
+{% endfor %}
+</div>

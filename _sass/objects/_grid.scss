@@ -16,7 +16,14 @@
 
 .o-grid--middle {
   > .o-grid__item {
-    vertical-align:middle;
+    vertical-align: middle;
+  }
+}
+
+.o-grid--narrow {
+  margin-left: -24px;
+  > .o-grid__item {
+    padding-left: 24px;
   }
 }
 

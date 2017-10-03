@@ -8,25 +8,8 @@ isPost: true
 		<h2 class="mb1 f3 f2-m lh-title">{{ page.title | escape }}</h2>
 		<time class="f6 ttu b blogpost-date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%d. %B %Y" | replace:"January","Januar" | replace:"Februar","February" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"December","Dezember" }}</time>
 	</div>
-	<div class="mb5">
+	<div class="mb2 mb4-m">
 		{{ content }}
 	</div>
-
-	{% assign author = site.data.author[page.author] %}
-
-	{% if author %}
-	<div class="blogpost-author pv2 pv3-m ph3 ph4-m">
-		<div class="o-grid o-grid--middle">
-			<figure class="o-grid__item mb2 ma0-m w-60 w-20-m">
-				<img class="br-100" src="{{ author.profileImage }}" alt="Profilbild von {{ author.name }}">
-			</figure>
-			<div class="o-grid__item w-100 w-80-m">
-				<h3 class="mb1 f3 lh-title">{{ author.name }}</h3>
-				<p class="mb1 f6">{{ author.bio }}</p>
-				<a class="mr1 f6" href="mailto:{{ author.mail }}" title="Mail von {{ author.name }}">Mail</a>
-				<a class="f6" href="https://twitter.com/{{ author.twitter }}" title="Twitter von {{ author.name }}">Twitter</a>
-			</div>
-		</div>
-	</div>
-	{% endif %}
+	{% include author.html %}
 </article>
