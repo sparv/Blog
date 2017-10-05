@@ -3,7 +3,7 @@ layout: post
 title: "Ist es fertig? - Darum Definition of Done!"
 date: 2017-10-05
 author: daniel
-intro: Neben dem Arbeiten in Sprints haben wir uns entschieden, eine Definition of Done zu schreiben. Doch warum eigentlich?
+intro: Neben dem Arbeiten in Sprints haben wir uns entschieden, eine Definition of Done zu schreiben. Doch warum eigentlich? Mit diesem Artikel möchten wir unsere Gedanken dahinter genauer beleuchten.
 category: projektmanagment
 metatitle: "Ist es fertig? - Darum Definition of Done!"
 metadescription: In diesem ersten Artikel eröffnen wir diesen Blog und tätigen einem kleinen Ausblick in die Zukunft von Sparv.
