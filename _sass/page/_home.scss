@@ -14,13 +14,15 @@
 }
 
 .blogpost-date {
-  color: $dark-gray; 
+  letter-spacing: 0.72px;
+  color: $dark-gray;
 }
 
 .blogpost__read-more {
   display: inline-block;
   font-size: 0.875rem;
   font-weight: 700;
+  letter-spacing: 0.72px;
   color: $brand-color;
   text-transform: uppercase;
   text-decoration: none;
