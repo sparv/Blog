@@ -34,3 +34,11 @@ Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ern
 Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.
 
 Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
+
+
+#### Statistische Auswertungen mit Piwik
+Diese Website benutzt Piwik, eine Open-Source-Software ([Piwik](http://de.piwik.org)) zur statistischen Auswertung der Besucherzugriffe. Zu diesem Zweck werden sog. „Cookies“ verwendet, das sind Textdateien, die auf Ihrem Computer gespeichert werden. Die durch die Cookies erzeugten Nutzungsinformationen werden an unseren Server übertragen und zu Nutzungsanalysezwecken gespeichert, was der Webseitenoptimierung unsererseits dient. Ihre IP-Adresse wird bei diesem Vorgang umgehend anonymisiert, so dass Sie als Nutzer für uns anonym bleiben. Der Server auf dem die statistischen Daten gespeichert werden ist von einem deutschen Anbieter und befindet sich auch physisch in Deutschland.
+
+Wenn Sie mit der Speicherung und Auswertung dieser Daten aus Ihrem Besuch nicht einverstanden sind, dann können Sie der Speicherung und Nutzung nachfolgend per Mausklick jederzeit widersprechen. In diesem Fall wird in Ihrem Browser ein sog. Opt-Out-Cookie abgelegt, was zur Folge hat, dass Piwik keinerlei Sitzungsdaten erhebt. **Achtung**: Wenn Sie Ihre Cookies löschen, so hat dies zur Folge, dass auch das Opt-Out-Cookie gelöscht wird und ggf. von Ihnen erneut aktiviert werden muss.
+
+<iframe style="border: 0; height: 200px; width: 100%;" src="https://piwik.sparv.de/index.php?module=CoreAdminHome&action=optOut&language=de"></iframe>
