@@ -1,0 +1,26 @@
+/*------------------------------------------------------------------
+||  Font Face
+-------------------------------------------------------------------*/
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("/uploads/fonts/Inter-UI-Regular.woff2") format("woff2"),
+       url("/uploads/fonts/Inter-UI-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  italic;
+  font-weight: 400;
+  src: url("/uploads/fonts/Inter-UI-RegularItalic.woff2?") format("woff2"),
+       url("/uploads/fonts/Inter-UI-RegularItalic.woff?") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  normal;
+  font-weight: 700;
+  src: url("/uploads/fonts/Inter-UI-Bold.woff2") format("woff2"),
+       url("/uploads/fonts/Inter-UI-Bold.woff") format("woff");
+}
