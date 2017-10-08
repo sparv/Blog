@@ -37,4 +37,6 @@ Zum Ende des Sprintmeetings sind folgende Punkte in die Planung für den kommend
 - Autoren bei Blogposts einblenden
 - Analytics in Blog einbinden
 
-Das war soweit der dritte Sprint. In zwei Wochen geht es dann wieder regelmäßig freitags weiter mit unseren Sprintmeetings - und dem entsprechend auch unserem schriftlichen Review und unsrem [Sparv Telegram Podcast](http://telegram.sparv.de), die erst mal immer an einem Sonntag erscheinen werden. Bei Fragen und Anregungen kann man uns gerne über [Twitter](https://twitter.com/sparvapp) und per [E-Mail](mailto:hi@sparv.de) kontaktieren - wir freuen uns auf Feedback!
+Das war unser dritter Sprint! In zwei Wochen geht es dann wieder regelmäßig freitags weiter mit unseren Sprintmeetings - und dem entsprechend auch unserem schriftlichen Review und unserem Podcast [Sparv Telegram](http://telegram.sparv.de). Beides wird in der kommenden Zeit immer an einem Sonntag erscheinen.
+
+Bei Fragen und Anregungen kann man uns gerne über [Twitter](https://twitter.com/sparvapp) und per [E-Mail](mailto:hi@sparv.de) kontaktieren - wir freuen uns auf Feedback!
