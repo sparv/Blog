@@ -3,7 +3,7 @@
 -------------------------------------------------------------------*/
 html {
   font-family: $basic-font;
-  line-height: 1.65;
+  line-height: 1.75;
   color: $dark;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -31,7 +31,7 @@ a {
   &:after {
     content: "";
     position: absolute;
-    bottom: 0px;
+    bottom: 1px;
     left: 0;
     height: 2px;
     width: 100%;
@@ -41,7 +41,7 @@ a {
 
   &:hover, &:focus {
     &:after {
-      transform: translateY(2px);
+      transform: translateY(1px);
       background: $brand-color;
     }
   }
