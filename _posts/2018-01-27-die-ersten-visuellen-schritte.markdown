@@ -3,10 +3,10 @@ layout: post
 title: "Die ersten visuellen Schritte"
 date: 2018-01-27
 author: jan
-intro: 
+intro: Ein kleiner Einblick in unsere Entwicklungen bezüglich der visuellen Sprache von Sparv. Es geht um das allgemeine Auftreten, Farben und Schriften.
 category: design
 metatitle: "Die ersten visuellen Schritte"
-metadescription:
+metadescription: Ein kleiner Einblick in unsere Entwicklungen bezüglich der visuellen Sprache von Sparv. Es geht um das allgemeine Auftreten, Farben und Schriften.
 ---
 
 Die Entwicklung von Sparv geht in letzter Zeit in einer Art Wellenform voran. Mal geht alles sehr leicht von der Hand und wir machen gute Fortschritte, mal geschieht manches eher in einem Schneckentempo. Ein Kernpunkt bei unserer Entwicklung bleibt aber, vom Startpunkt weg, das Design unserer gesamtheitlichen Anwendung.
