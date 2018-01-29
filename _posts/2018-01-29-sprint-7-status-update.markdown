@@ -39,12 +39,13 @@ Entgangen passt eigentlich ganz gut, da sich das Projekt über die Feiertage doc
 
 Für diesen Sprint haben wir uns folgende Aufgabenpakete zugewiesen:
 
-Jan:
+#### Jan:
+
 - Design Trainingsplänemodul
 - Roadmap v1 erstellen
 - Elements => VueJS Komponentenlibrary evaluieren
 
-Henning:
+#### Daniel:
 
 - API Dokumentation fertigstellen
 - API Schnittstellen für Übungseinheiten und Übungsgruppen
