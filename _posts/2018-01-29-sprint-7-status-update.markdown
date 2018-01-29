@@ -1,4 +1,6 @@
 ---
+layout: post
+title: "Sprint 7: Status Update"
 date: 2018-01-29
 author: daniel
 intro: Auch wir sind nun im Jahre 2018 angekommen und haben uns das erste mal in dieser Zeitperiode getroffen, um wie gewohnt über den vergangenen Sprint, den aktuellen Projektstatus und die kommenden Aufgaben zu reden.
