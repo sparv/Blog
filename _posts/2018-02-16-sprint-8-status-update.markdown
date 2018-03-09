@@ -40,6 +40,6 @@ Für diesen Sprint haben wir uns folgende Aufgabenpakete zugewiesen:
 - Sparvnest Error Handling überarbeiten
 
 
-Wie immer könnt ihr diesen Sprint [auch als Podcast anhören](http://telegram.sparv.de/st007-entgangen/). Falls es Fragen oder Anmerkungen zu irgendwas gibt - schreibt uns einfach auf [Twitter](https://twitter.com/sparvapp) oder per [Mail](mailto:hi@sparv.de)!
+Wie immer könnt ihr diesen Sprint [auch als Podcast anhören](http://telegram.sparv.de/st008-das-dunkle-zeitalter-ist-vorbei/). Falls es Fragen oder Anmerkungen zu irgendwas gibt - schreibt uns einfach auf [Twitter](https://twitter.com/sparvapp) oder per [Mail](mailto:hi@sparv.de)!
 
 Bis in 2 Wochen! - Wir freuen uns!
