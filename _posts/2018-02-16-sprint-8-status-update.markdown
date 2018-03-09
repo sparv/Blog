@@ -3,10 +3,10 @@ layout: post
 title: "Sprint 8: Status Update"
 date: 2018-02-16
 author: daniel
-intro: 
+intro: Ein Sprint voller kleiner Änderungen und Anpassungen. Dabei haben wir unsere Roadmap für 2018 neu geschärft und gehen mit einem höheren Fokus in die nächsten Wochen und Monate.
 category: sprintreview
 metatitle: "Sprint 8: Status Update"
-metadescription: 
+metadescription: Ein Sprint voller kleiner Änderungen und Anpassungen. Dabei haben wir unsere Roadmap für 2018 neu geschärft und gehen mit einem höheren Fokus in die nächsten Wochen und Monate.
 ---
 
 ### Review:
